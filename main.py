@@ -1,16 +1,24 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+def my_name(name):
+    return name
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+myName = my_name('Sam')
+
+guess_name = str(input("Enter name : "))
+
+if guess_name != myName:
+    print("Got ya!!")
+else :
+    print('Correct Guess!!')
+    print("Nice work")
+
+
+
+
+
+
+
